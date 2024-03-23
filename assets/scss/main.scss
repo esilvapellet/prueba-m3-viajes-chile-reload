@@ -1,0 +1,21 @@
+// required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+// 1. abstracts
+@import './abstracts/variables';
+@import './abstracts/custom_bootstrap';
+// 2. vendor
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// 3. base
+@import './base/base';
+@import './base/icons';
+@import './base/reset';
+@import './base/typography';
+// 4. layout
+@import './layout/footer';
+@import './layout/header';
+// 5. components
+// 6. pages
+@import './pages/home';
+// 7. themes

@@ -1,0 +1,20 @@
+// mapa de colores personalizado
+
+$custom-colors: (
+  "custom-primary": #900,
+  "custom-secondary": #716e6e,
+  "custom-peach": #EFBC9B,
+  "custom-adl": #729E2E,
+  "custom-grey": #404040,
+  "custom-lightblue": #52c7e4,
+  "custom-orange": #DC4A25,
+  "custom-blue": #136DB0,
+  "custom-pink": #C76395,
+  "custom-yellow": #E8D44D,
+  "custom-purple": #8512F6,
+  "custom-green": #3EB27F,
+);
+
+// fusionar mapas
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
